@@ -5,7 +5,9 @@
 Created for UP Diliman's CS21: Computer Organization and Architecture course
 
 ## Project Description 📝
-The instruction set of a single-cycle MIPS processor in HDL comprises a limited subset of the MIPS instruction set. This project aims to enhance the single-cycle MIPS processor design to accommodate a broader range of instructions. The added instructions include: 
+The instruction set of a single-cycle MIPS processor in HDL comprises a limited subset of the MIPS instruction set. This project aims to enhance the single-cycle MIPS processor design to accommodate a broader range of instructions using System Verilog, an HDL language.  Xilinx Vivado was used to design and simulate the project.
+
+The added instructions include: 
 
 1. Normal instructions
    - sll
@@ -14,4 +16,4 @@ The instruction set of a single-cycle MIPS processor in HDL comprises a limited 
    - ble
    - li
 5. Custom instruction
-   -zero-from-right (zfr)
+   - zero-from-right (zfr)
